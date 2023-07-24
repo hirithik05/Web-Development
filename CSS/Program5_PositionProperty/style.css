@@ -1,0 +1,32 @@
+div{
+    border: 2px black double;
+    margin: 10px;
+}
+/* Relative position */
+#img2{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    right: 10px;
+    bottom: 30px;
+}
+.flower{
+    position: relative;
+    height: 8000px;
+}
+/* Absolute Position */
+#img3{
+    position: absolute;
+    top: 70px;
+}
+/* Fixed position */
+#img4{
+    position: fixed;
+
+}
+#img1{
+    position: sticky;
+    top: 10px;
+
+}
+
