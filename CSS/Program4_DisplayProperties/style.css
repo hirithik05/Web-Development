@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+ }
+ /* Block */
+ div{
+    width: 300px;
+    height: 100px;
+    border: 1px black dotted;
+    margin: 10px;
+    padding: 10;
+ }
+ /* Inline */
+ span{
+    border: 2px black dotted;
+    margin: 10px;
+    padding: 10px;
+    /* Convertion  */
+    display: block;
+
+ }
+ /* Inline Block */
+ #sp{
+    display: inline-block;
+    margin: 20px;
+ }
