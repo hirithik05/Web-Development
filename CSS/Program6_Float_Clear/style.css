@@ -1,0 +1,10 @@
+img{
+    float: right;
+}
+/* Overflow - auto */
+div{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    overflow: scroll;
+}
