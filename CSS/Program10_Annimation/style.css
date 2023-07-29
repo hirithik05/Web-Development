@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    border: 3px solid black;
+}
+.box{
+    width: 350px;
+    height: 80px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin: 10px;
+    border: 3px solid brown;
+    position: relative;
+    /* Annimation */
+    animation-name: rightmomemt;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes rightmomemt{
+    from{
+        top: 0;
+        left: 0;
+
+    }
+    to{
+        top: 0;
+        left: 1200px;
+
+    }
+    
+}
