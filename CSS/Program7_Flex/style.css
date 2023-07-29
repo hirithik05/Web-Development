@@ -1,0 +1,44 @@
+.container{
+    background-color: aqua;
+    border: 5px solid black;
+    margin: 2px;
+    padding: 2px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items:start;
+    justify-content:start ;
+    align-content: start;
+    
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid brown;
+    margin: 2px;
+    padding: 2px;
+
+
+}
+#box1{
+    background-color: blue;
+    order: 2;
+
+}
+#box2{
+    background-color: orange;
+    order: 1;
+}
+#box3{
+    background-color: brown;
+    order: 4;
+    
+}
+#box4{
+    background-color:green;
+    order: 3;
+    flex-basis: 300px;
+    
+}
