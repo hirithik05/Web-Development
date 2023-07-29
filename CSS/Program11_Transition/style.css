@@ -1,0 +1,16 @@
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration:4s;
+    transition-timing-function: linear;
+}
+/* Hover(mouse pointed) */
+.box:hover{
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    background-color: red;
+}
