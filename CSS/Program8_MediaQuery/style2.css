@@ -1,0 +1,40 @@
+.box{
+    width: 600px;
+    background-color: aquamarine;
+    border: 3px solid black;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+}
+#box1{
+    height:200px;
+    width: 47%;
+    background-color: aqua;
+    border:3px solid brown;
+    margin: 2px;
+    padding: 2px;
+    display:flex;
+    flex-direction: column;
+}
+#box2{
+    background-color: green;
+    margin: 2px;
+    width: 47%;
+    border:3px solid red;
+    padding: 2px;
+    height:200px;
+
+}
+img{
+    width: 270px;
+    height: 190px;
+}
+p{
+    border: 3px solid black;
+}
+@media(max-width:640px){
+    .box{
+        flex-direction: column;
+    }
+}
